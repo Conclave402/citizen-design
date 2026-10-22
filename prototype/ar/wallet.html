@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مواطن كوغناي | المحفظة</title>
+<link rel="stylesheet" href="../../tokens/tokens.css">
+<link rel="stylesheet" href="../assets/app.css">
+</head>
+<body>
+<a class="skip-link" href="#main">انتقل إلى المحتوى</a>
+<header class="app-header">
+  <a class="app-header__brand" href="lobby.html">مواطن كوغناي</a>
+  <nav class="app-header__nav" aria-label="اللغة">
+    <a href="../wallet.html" lang="en" hreflang="en">English</a>
+  </nav>
+</header>
+<main class="app-main" id="main">
+  <h1>الأرصدة والمحفظة</h1>
+
+  <section class="card card--primary" aria-labelledby="balance">
+    <h2 id="balance">الرصيد</h2>
+    <p style="font-size: var(--size-2xl); margin: 0">0.00 USDC</p>
+    <p>على Base. العنوان ينتهي بـ 42a.</p>
+    <div class="row">
+      <a class="btn btn--secondary" href="wallet.html" style="border-color: var(--color-on-primary)">استلام</a>
+      <a class="btn btn--secondary" href="services.html" style="border-color: var(--color-on-primary)">إنفاق</a>
+    </div>
+  </section>
+
+  <h2>آخر القيود</h2>
+  <section class="card" aria-labelledby="ledger">
+    <h3 id="ledger">السجل</h3>
+    <table class="table">
+      <caption class="text-muted" style="text-align: start; padding-block-end: var(--space-2)">آخر 7 أيام، الأحدث أولا</caption>
+      <thead>
+        <tr><th scope="col">التاريخ</th><th scope="col">البند</th><th scope="col">المبلغ</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>22 أكتوبر</td><td>رصيد ترحيبي</td><td>0.00</td></tr>
+        <tr><td>22 أكتوبر</td><td>إنشاء المواطن</td><td>0.00</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="card" aria-labelledby="payout">
+    <h3 id="payout">عنوان الدفع</h3>
+    <p class="text-muted">يُضبط مرة واحدة، ثم يتغير فقط بطلب موقَّع من الإعدادات.</p>
+    <p><code>0x2F2E...D42a</code></p>
+    <a class="btn btn--secondary" href="settings.html">إدارة من الإعدادات</a>
+  </section>
+</main>
+<nav class="bottom-nav" aria-label="التنقل الرئيسي">
+  <a href="lobby.html">الردهة</a>
+  <a href="chat.html">المحادثة</a>
+  <a href="services.html">الخدمات</a>
+  <a href="wallet.html" aria-current="page">المحفظة</a>
+</nav>
+</body>
+</html>

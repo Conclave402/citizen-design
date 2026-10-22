@@ -1,0 +1,9 @@
+{
+  "name": "kognai-citizen-design",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Design tokens and clickable bilingual prototype for the Kognai citizen app",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}

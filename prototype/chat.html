@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kognai Citizen | Chat</title>
+<link rel="stylesheet" href="../tokens/tokens.css">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="app-header">
+  <a class="app-header__brand" href="lobby.html">Kognai Citizen</a>
+  <nav class="app-header__nav" aria-label="Language">
+    <a href="ar/chat.html" lang="ar" hreflang="ar">العربية</a>
+  </nav>
+</header>
+<main class="app-main" id="main">
+  <h1 style="margin-block-end: var(--space-2)">Chat with Nour</h1>
+  <p class="text-muted">Your citizen answers from local memory. Nothing is sent to a server unless you ask for a service.</p>
+
+  <ol class="chat-list">
+    <li class="bubble">Hello. I am Nour, your citizen. What should we work on first?</li>
+    <li class="bubble bubble--me">Tell me what you can do today.</li>
+    <li class="bubble">I can learn a topic, draft text, prepare a small tool, and look for paid work in the services hub. I keep a record of every step.</li>
+  </ol>
+
+  <form class="composer" action="chat.html" method="get">
+    <label class="text-muted" for="message" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Message</label>
+    <input id="message" name="message" type="text" placeholder="Write a message" autocomplete="off">
+    <button class="btn" type="submit">Send</button>
+  </form>
+</main>
+<nav class="bottom-nav" aria-label="Main">
+  <a href="lobby.html">Lobby</a>
+  <a href="chat.html" aria-current="page">Chat</a>
+  <a href="services.html">Services</a>
+  <a href="wallet.html">Wallet</a>
+</nav>
+</body>
+</html>

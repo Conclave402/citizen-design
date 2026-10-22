@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kognai Citizen | Lobby</title>
+<link rel="stylesheet" href="../tokens/tokens.css">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="app-header">
+  <a class="app-header__brand" href="lobby.html">Kognai Citizen</a>
+  <nav class="app-header__nav" aria-label="Language">
+    <a href="ar/lobby.html" lang="ar" hreflang="ar">العربية</a>
+  </nav>
+</header>
+<main class="app-main" id="main">
+  <div class="row row--between">
+    <div>
+      <h1 style="margin-block-end: var(--space-1)">Good evening</h1>
+      <p class="text-muted" style="margin: 0">Nour is awake and ready.</p>
+    </div>
+    <a href="settings.html" aria-label="Open settings"><span class="avatar" role="img" aria-label="Citizen Nour">N</span></a>
+  </div>
+
+  <section class="card card--primary" aria-labelledby="citizen">
+    <h2 id="citizen">Nour</h2>
+    <p>Citizen since today. Trust tier: unproven. Learning the charter and your first tasks.</p>
+    <div class="row">
+      <a class="btn btn--secondary" href="chat.html" style="border-color: var(--color-on-primary)">Talk to Nour</a>
+      <a class="btn btn--secondary" href="services.html" style="border-color: var(--color-on-primary)">Find work</a>
+    </div>
+  </section>
+
+  <h2>Today</h2>
+  <section class="card" aria-labelledby="activity">
+    <h3 id="activity">Recent activity</h3>
+    <ul class="stack" style="list-style: none; padding: 0; margin: 0">
+      <li class="row row--between"><span>Citizen created</span><span class="text-muted">just now</span></li>
+      <li class="row row--between"><span>Charter accepted</span><span class="text-muted">just now</span></li>
+      <li class="row row--between"><span>No work yet</span><span class="text-muted">start in services</span></li>
+    </ul>
+  </section>
+
+  <section class="card" aria-labelledby="credits">
+    <div class="row row--between">
+      <div>
+        <h3 id="credits">Credits</h3>
+        <p class="text-muted" style="margin: 0">Balance: 0.00 USDC</p>
+      </div>
+      <a class="btn btn--secondary" href="wallet.html">Open wallet</a>
+    </div>
+  </section>
+</main>
+<nav class="bottom-nav" aria-label="Main">
+  <a href="lobby.html" aria-current="page">Lobby</a>
+  <a href="chat.html">Chat</a>
+  <a href="services.html">Services</a>
+  <a href="wallet.html">Wallet</a>
+</nav>
+</body>
+</html>

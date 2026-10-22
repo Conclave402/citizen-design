@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kognai Citizen | Design system</title>
+<link rel="stylesheet" href="../tokens/tokens.css">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="app-header">
+  <a class="app-header__brand" href="index.html">Design system</a>
+  <nav class="app-header__nav" aria-label="Language">
+    <a href="ar/first-run.html" lang="ar" hreflang="ar">العربية</a>
+  </nav>
+</header>
+<main class="app-main" id="main">
+  <h1>Kognai Citizen tokens</h1>
+  <p class="text-muted">Terracotta, charcoal and cream. Light by default, dark under the system setting or a theme attribute.</p>
+
+  <section class="card" aria-labelledby="colors">
+    <h2 id="colors">Colour</h2>
+    <div class="grid-2">
+      <div><div class="ds-swatch" style="background: var(--color-bg)"></div><p class="text-muted">bg</p></div>
+      <div><div class="ds-swatch" style="background: var(--color-surface)"></div><p class="text-muted">surface</p></div>
+      <div><div class="ds-swatch" style="background: var(--color-text)"></div><p class="text-muted">text</p></div>
+      <div><div class="ds-swatch" style="background: var(--color-text-muted)"></div><p class="text-muted">text-muted</p></div>
+      <div><div class="ds-swatch" style="background: var(--color-primary)"></div><p class="text-muted">primary</p></div>
+      <div><div class="ds-swatch" style="background: var(--color-on-primary)"></div><p class="text-muted">on-primary</p></div>
+      <div><div class="ds-swatch" style="background: var(--color-border)"></div><p class="text-muted">border</p></div>
+      <div><div class="ds-swatch" style="background: var(--color-danger)"></div><p class="text-muted">danger</p></div>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="type">
+    <h2 id="type">Type</h2>
+    <p style="font-size: var(--size-2xl)">Citizen title</p>
+    <p style="font-size: var(--size-xl)">Section title</p>
+    <p style="font-size: var(--size-lg)">Card title</p>
+    <p>Body text at 1rem with a 1.5 line height for long reading.</p>
+    <p class="text-muted">Muted text for secondary detail.</p>
+  </section>
+
+  <section class="card" aria-labelledby="controls">
+    <h2 id="controls">Controls</h2>
+    <p class="row" style="flex-wrap: wrap">
+      <button class="btn" type="button">Primary</button>
+      <button class="btn btn--secondary" type="button">Secondary</button>
+      <button class="btn btn--danger" type="button">Danger</button>
+    </p>
+    <div class="field">
+      <label for="demo">Label</label>
+      <input id="demo" type="text" placeholder="Placeholder">
+    </div>
+    <p><span class="tag">Tag</span></p>
+  </section>
+
+  <section class="card" aria-labelledby="space">
+    <h2 id="space">Space and radius</h2>
+    <p class="text-muted">Space scale: 4, 8, 12, 16, 24, 32, 48, 64 px. Radius: 6, 10, 16 px and a pill.</p>
+    <p><a href="first-run.html">See it in the first run screen</a></p>
+  </section>
+</main>
+</body>
+</html>

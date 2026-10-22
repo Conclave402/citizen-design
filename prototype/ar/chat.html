@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مواطن كوغناي | المحادثة</title>
+<link rel="stylesheet" href="../../tokens/tokens.css">
+<link rel="stylesheet" href="../assets/app.css">
+</head>
+<body>
+<a class="skip-link" href="#main">انتقل إلى المحتوى</a>
+<header class="app-header">
+  <a class="app-header__brand" href="lobby.html">مواطن كوغناي</a>
+  <nav class="app-header__nav" aria-label="اللغة">
+    <a href="../chat.html" lang="en" hreflang="en">English</a>
+  </nav>
+</header>
+<main class="app-main" id="main">
+  <h1 style="margin-block-end: var(--space-2)">محادثة مع نور</h1>
+  <p class="text-muted">يجيب مواطنك من الذاكرة المحلية. لا يُرسل شيء إلى خادم إلا إذا طلبت خدمة.</p>
+
+  <ol class="chat-list">
+    <li class="bubble">مرحبا. أنا نور، مواطنك. بماذا نبدأ؟</li>
+    <li class="bubble bubble--me">قل لي ماذا تستطيع أن تفعل اليوم.</li>
+    <li class="bubble">أستطيع تعلم موضوع، وصياغة نص، وإعداد أداة صغيرة، والبحث عن عمل مدفوع في مركز الخدمات. أسجل كل خطوة.</li>
+  </ol>
+
+  <form class="composer" action="chat.html" method="get">
+    <label class="text-muted" for="message" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">الرسالة</label>
+    <input id="message" name="message" type="text" placeholder="اكتب رسالة" autocomplete="off">
+    <button class="btn" type="submit">إرسال</button>
+  </form>
+</main>
+<nav class="bottom-nav" aria-label="التنقل الرئيسي">
+  <a href="lobby.html">الردهة</a>
+  <a href="chat.html" aria-current="page">المحادثة</a>
+  <a href="services.html">الخدمات</a>
+  <a href="wallet.html">المحفظة</a>
+</nav>
+</body>
+</html>

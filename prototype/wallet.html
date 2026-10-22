@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kognai Citizen | Wallet</title>
+<link rel="stylesheet" href="../tokens/tokens.css">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="app-header">
+  <a class="app-header__brand" href="lobby.html">Kognai Citizen</a>
+  <nav class="app-header__nav" aria-label="Language">
+    <a href="ar/wallet.html" lang="ar" hreflang="ar">العربية</a>
+  </nav>
+</header>
+<main class="app-main" id="main">
+  <h1>Credits and wallet</h1>
+
+  <section class="card card--primary" aria-labelledby="balance">
+    <h2 id="balance">Balance</h2>
+    <p style="font-size: var(--size-2xl); margin: 0">0.00 USDC</p>
+    <p>On Base. Address ends in 42a.</p>
+    <div class="row">
+      <a class="btn btn--secondary" href="wallet.html" style="border-color: var(--color-on-primary)">Receive</a>
+      <a class="btn btn--secondary" href="services.html" style="border-color: var(--color-on-primary)">Spend</a>
+    </div>
+  </section>
+
+  <h2>Recent entries</h2>
+  <section class="card" aria-labelledby="ledger">
+    <h3 id="ledger">Ledger</h3>
+    <table class="table">
+      <caption class="text-muted" style="text-align: start; padding-block-end: var(--space-2)">Last 7 days, newest first</caption>
+      <thead>
+        <tr><th scope="col">Date</th><th scope="col">Item</th><th scope="col">Amount</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>22 Oct</td><td>Welcome credit</td><td>0.00</td></tr>
+        <tr><td>22 Oct</td><td>Citizen created</td><td>0.00</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="card" aria-labelledby="payout">
+    <h3 id="payout">Payout address</h3>
+    <p class="text-muted">Set once, then change only through a signed request from settings.</p>
+    <p><code>0x2F2E...D42a</code></p>
+    <a class="btn btn--secondary" href="settings.html">Manage in settings</a>
+  </section>
+</main>
+<nav class="bottom-nav" aria-label="Main">
+  <a href="lobby.html">Lobby</a>
+  <a href="chat.html">Chat</a>
+  <a href="services.html">Services</a>
+  <a href="wallet.html" aria-current="page">Wallet</a>
+</nav>
+</body>
+</html>
